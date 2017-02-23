@@ -7,7 +7,7 @@ public class StringCalendarUtil {
     /**
      * ������תΪʱ�� ������20160310
      * @param timeMillis
-     * @param type 
+     * @param type 11
      * @return
      */
     public static String getNowDateStr(long timeMillis, String separate) {
