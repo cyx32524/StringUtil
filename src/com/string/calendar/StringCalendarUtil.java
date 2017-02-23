@@ -15,7 +15,7 @@ public class StringCalendarUtil {
         StringBuffer sb = new StringBuffer();
         cal.setTimeInMillis(timeMillis);
         sb.append(cal.get(Calendar.YEAR));
-        sb.append(separate);
+        sb.append(separate);  
         sb.append(fill(String.valueOf(cal.get(Calendar.MONTH)+1), 2, '0'));
         sb.append(separate);  
         sb.append(fill(String.valueOf(cal.get(Calendar.DAY_OF_MONTH)), 2, '0'));
