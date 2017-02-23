@@ -8,7 +8,7 @@ public class StringCalendarUtil {
      * ������תΪʱ�� ������20160310
      * @param timeMillis
      * @param type 
-     * @return
+     * @return 11
      */
     public static String getNowDateStr(long timeMillis, String separate) {
         Calendar cal = Calendar.getInstance();
