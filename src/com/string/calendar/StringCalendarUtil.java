@@ -5,7 +5,7 @@ import java.util.Calendar;
 public class StringCalendarUtil {
     
     /**
-     * ½«ºÁÃë×ªÎªÊ±¼ä ÀàËÆÓÚ20160310
+     * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªÎªÊ±ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½20160310
      * @param timeMillis
      * @param type 
      * @return
@@ -17,17 +17,17 @@ public class StringCalendarUtil {
         sb.append(cal.get(Calendar.YEAR));
         sb.append(separate);
         sb.append(fill(String.valueOf(cal.get(Calendar.MONTH)+1), 2, '0'));
-        sb.append(separate);
+        sb.append(separate);  
         sb.append(fill(String.valueOf(cal.get(Calendar.DAY_OF_MONTH)), 2, '0'));
         
         return sb.toString();
     }
     
     /**
-     * Ìî³ä×Ö·û´® placeÒª´óÓÚneedFileµÄ³¤¶È
-     * @param needFill ÐèÒªÌî³äµÄ×Ö·û´®
-     * @param place ÐèÒªÌî³äµ½¶àÉÙÎ»
-     * @param fillStuff ÐèÒªÌî³äµÄ×Ö·û
+     * ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ placeÒªï¿½ï¿½ï¿½ï¿½needFileï¿½Ä³ï¿½ï¿½ï¿½
+     * @param needFill ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½
+     * @param place ï¿½ï¿½Òªï¿½ï¿½äµ½ï¿½ï¿½ï¿½ï¿½Î»
+     * @param fillStuff ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½
      * @return
      */
     public static String fill(String needFill, int place, char fillStuff) {
@@ -49,8 +49,8 @@ public class StringCalendarUtil {
     }
     
     /**
-     * Í¨¹ýÒ»¸ödatelineµÃµ½µ±Ìì0µãÊ±µÄdateline<p>
-     * dalineÊÇSystem.currentTimeMillis()/1000µÄ¸ñÊ½
+     * Í¨ï¿½ï¿½Ò»ï¿½ï¿½datelineï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½0ï¿½ï¿½Ê±ï¿½ï¿½dateline<p>
+     * dalineï¿½ï¿½System.currentTimeMillis()/1000ï¿½Ä¸ï¿½Ê½
      * @param dateline
      * @return
      */
